@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress-tests":"cypress run --browser chrome"
+    "cypress-tests": "cypress run --browser chrome"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/pritampatil4/cypress-tests#readme",
   "devDependencies": {
-    "cypress": "^3.7.0"
+    "cypress": "^3.8.3"
+  },
+  "dependencies": {
+    "@gooddata/util": "^8.4.0",
+    "typescript": "^4.3.4"
   }
 }

@@ -23,3 +23,18 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('login', (username, password) => {
+    cy.visit('/');
+    cy.location("pathname").should("contain", "/dex/auth/local");
+    cy.get(".login-page-block").should("exist");
+    cy.get("#login").type(username);
+    cy.get("#password").type(password);
+    cy.get(".submit-button").click();
+    Cypress.Cookies.debug(true)
+})
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+    debugger
+    return false
+})

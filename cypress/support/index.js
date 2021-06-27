@@ -18,3 +18,8 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+// Enable code below when you want to one time login
+// Cypress.Cookies.defaults({
+//     whitelist: ['SPRING_SEC_OAUTH2_AUTHZ_CLIENT', 'SPRING_SEC_SECURITY_CONTEXT']
+// })

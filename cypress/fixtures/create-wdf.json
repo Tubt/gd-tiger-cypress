@@ -1,0 +1,27 @@
+{
+  "workspaceDataFilters": [
+    {
+      "id": "region",
+      "title": "Customer Region",
+      "columnName": "wdf__region",
+      "dataSourceId": "demo-ds",
+      "workspace": {
+        "id": "demo",
+        "type": "workspace"
+      },
+      "workspaceDataFilterSettings": [
+        {
+          "id": "region_west",
+          "title": "Region West",
+          "filterValues": [
+            "West"
+          ],
+          "workspace": {
+            "id": "west",
+            "type": "workspace"
+          }
+        }
+      ]
+    }
+  ]
+}

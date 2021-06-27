@@ -1,0 +1,17 @@
+{
+  "data": {
+    "attributes": {
+      "name": "West"
+    },
+    "id": "west",
+    "type": "workspace",
+    "relationships": {
+      "parent": {
+        "data": {
+          "id": "demo",
+          "type": "workspace"
+        }
+      }
+    }
+  }
+}

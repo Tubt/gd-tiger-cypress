@@ -1,1 +1,9 @@
-{}
+{
+    "baseUrl": "http://localhost:3000",
+    "env": {
+        "username": "demo@example.com",
+        "password": "",
+        "workspaceId": "cba6428155274c09bc5501e839d25a5b"
+      },
+    "video": false
+}
